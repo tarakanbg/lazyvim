@@ -7,6 +7,7 @@ vim.opt.langmap =
   "ЯQ,ВW,ЕE,РR,ТT,ЪY,УU,ИI,ОO,ПP,Ш{,Щ},АA,СS,ДD,ФF,ГG,ХH,ЙJ,КK,ЛL,ЗZ,ѝX,ЦC,ЖV,БB,НN,МM,яq,вw,еe,рr,тt,ъy,уu,иi,оo,пp,ш[,щ],аa,сs,дd,фf,гg,хh,йj,кk,лl,зz,ьx,цc,жv,бb,нn,мm,§`,±~"
 
 vim.opt.textwidth = 80
+vim.opt.colorcolumn = "+1"
 
 vim.opt.fileformat = "unix"
 vim.opt.tabstop = 2

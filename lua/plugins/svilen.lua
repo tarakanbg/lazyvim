@@ -1,6 +1,8 @@
 return {
   { "fedepujol/move.nvim" },
 
+  { "ellisonleao/gruvbox.nvim" },
+
   {
     "okuuva/auto-save.nvim",
     cmd = "ASToggle", -- optional for lazy loading on command
@@ -11,6 +13,29 @@ return {
       },
       -- your config goes here
       -- or just leave it empty :)
+    },
+  },
+
+  -- add more treesitter parsers
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
+        "bash",
+        "html",
+        "javascript",
+        "json",
+        "lua",
+        "markdown",
+        "markdown_inline",
+        "python",
+        "query",
+        "regex",
+        "tsx",
+        "typescript",
+        "vim",
+        "yaml",
+      },
     },
   },
 }
