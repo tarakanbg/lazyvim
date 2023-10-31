@@ -36,6 +36,7 @@ return {
     opts = {
       ensure_installed = {
         "bash",
+        "gitignore",
         "html",
         "javascript",
         "json",
@@ -45,11 +46,20 @@ return {
         "python",
         "query",
         "regex",
+        "ruby",
         "tsx",
         "typescript",
         "vim",
         "yaml",
       },
+    },
+  },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      window = {
+        width = 27
+      }
     },
   },
 }
