@@ -13,7 +13,8 @@ return {
   {
     "neovim/nvim-lspconfig",
     opts = {
-      autoformat = false,
+      -- deprecated, set in options.lua (vim.g.autoformat)
+      -- autoformat = false,
     },
   },
 

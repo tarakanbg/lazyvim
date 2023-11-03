@@ -17,3 +17,5 @@ vim.opt.swapfile = false
 vim.opt.undofile = false
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 2
+
+vim.g.autoformat = false
